@@ -1,8 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
-@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400);
 
 body {
-	font-family: Lato, "Helvetica Neue", Helvetica, sans-serif;
+	font-family: Lato, 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 18px;
 	font-weight: 300;
 	background-image: url(../img/background.jpg);
@@ -14,12 +14,13 @@ a, a:visited, a:link {
 	text-decoration: none;
 	color: #0000AA;
 }
+
 a:hover {
 	color: #0000EE;
 }
 
 h1, h2, h3 {
-	font-family: Raleway, "Helvetica Neue", Helvetica, sans-serif;
+	font-family: Raleway, 'Helvetica Neue', Helvetica, sans-serif;
 	font-weight: 300;
 }
 
@@ -42,6 +43,8 @@ h3 {
 
 main {
 	margin-left: 30%;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	margin-right: 20px;
 	background-image: url(../img/ricepaper_v3.png);
 	opacity: 0.9;
@@ -66,7 +69,7 @@ header p {
 
 .menu {
 	padding: 1em;
-	background-color: rgba(207 205 140 0.5);
+	background-color: rgba(207, 205, 140, 0.5);
 }
 
 dt {
@@ -87,7 +90,7 @@ dd {
 footer {
 	padding: 1em;
 	background-color: #FC892F;
-	border-bottom: 5px solid #EC791F;
+	border-top: 5px solid #EC791F;
 	font-size: 80%;
 	text-align: right;
 }
