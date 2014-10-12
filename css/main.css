@@ -10,12 +10,12 @@ body {
 	background-attachment: fixed;
 }
 
-a, a:visited, a:link {
+a:visited, a:link {
 	text-decoration: none;
 	color: #0000AA;
 }
 
-a:hover {
+a:hover a:focus {
 	color: #0000EE;
 }
 
